@@ -23,10 +23,10 @@ export const createTabsContent = category => {
   img.src = 'https://rrstatic.retailrocket.net/test_task/tovar.jpg';
   img.alt = category.productName;
 
-  h3.classList.add('tabs-content__title');
+  h3.classList.add('tabs__title');
   h3.textContent = category.productName;
 
-  li.classList.add('tabs-content__item');
+  li.classList.add('tabs__content-item');
   li.append(img);
   li.append(h3);
 

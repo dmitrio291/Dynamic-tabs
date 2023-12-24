@@ -8,8 +8,8 @@ import { createTabs, createTabsContent } from "./tabs.js";
  * Variables
  */
 const data = await getData();
-const tabsBlock = document.querySelector('.tabs');
-const tabsContent = document.querySelector('.tabs-content');
+const tabsBlock = document.querySelector('.tabs__menu');
+const tabsContent = document.querySelector('.tabs__content');
 let goodsСategory;
 
 /**
